@@ -1,6 +1,7 @@
 import 'aos/dist/aos.css';
 import './App.css';
 import Experince from './Pages/Experince/Experince';
+import Home from './Pages/Home/Home';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Typical from 'react-typical'
 
@@ -26,17 +27,17 @@ function App() {
         </nav>
       </header>
         <div class="content" >
-        <div id='Home' data-aos="fade-in" data-aos-duration="4000" style={{height:"500px"}}>
+        <div id='Home' data-aos="fade-in" data-aos-duration="4000" >
           
           <div className="card">
           <div className="title">Information</div>
-          <Experince className="content-card"/>
+          <Home className="content-card"/>
 
           </div>
         </div>
 
 
-        <div id='Experince'  data-aos="zoom-in-up" data-aos-duration="4000" style={{height:"500px"}}>
+        <div id='Experince'  data-aos="zoom-in-up" data-aos-duration="4000" >
         <div className="card">
           <div className="title">Experince</div>
           <Experince className="content-card"/>
@@ -44,7 +45,7 @@ function App() {
         </div>
         
         
-        <div id='Projects' data-aos="flip-up" data-aos-duration="4000" style={{height:"500px"}}>
+        <div id='Projects' data-aos="flip-up" data-aos-duration="4000" >
         
         <div className="card">
           <div className="title">Projects</div>
@@ -60,14 +61,14 @@ function App() {
         
         
 
-        <div id='Qualifications' data-aos="top-top" data-aos-duration="4000" style={{height:"500px"}}>
+        <div id='Qualifications' data-aos="top-top" data-aos-duration="4000" >
         <div className="card">
           <div className="title">Qualifications</div>
           <Experince className="content-card"/>
         </div>
         </div>
 
-        <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" style={{height:"500px"}}>
+        <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" >
         <div className="card">
           <div className="title">Skills</div>
           <Experince className="content-card"/>

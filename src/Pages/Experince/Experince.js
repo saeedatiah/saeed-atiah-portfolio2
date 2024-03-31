@@ -8,30 +8,30 @@ const Experince = () => {
   <li>
     <div className="direction-r">
       <div className="flag-wrapper">
-        <span className="flag">Freelancer</span>
-        <span className="time-wrapper"><span className="time">2013 - present</span></span>
+        <span className="flag">Window Forms</span>
+        <span className="time-wrapper"><span className="time">2017 - 2019</span></span>
       </div>
-      <div className="desc">My current employment. Way better than the position before!</div>
+      <div className="desc">I worked on two projects on this technology.</div>
     </div>
   </li>
   
   <li>
     <div className="direction-l">
       <div className="flag-wrapper">
-        <span className="flag">Apple Inc.</span>
-        <span className="time-wrapper"><span class="time">2011 - 2013</span></span>
+        <span className="flag">WPF</span>
+        <span className="time-wrapper"><span class="time">2019 - present</span></span>
       </div>
-      <div className="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+      <div className="desc">I worked in this field in a company for two years and then I was promoted to department head.</div>
     </div>
   </li>
 
   <li>
     <div className="direction-r">
       <div className="flag-wrapper">
-        <span className="flag">Harvard University</span>
-        <span className="time-wrapper"><span className="time">2008 - 2011</span></span>
+        <span className="flag">ReatJS</span>
+        <span className="time-wrapper"><span className="time">2022 - present</span></span>
       </div>
-      <div className="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+      <div className="desc">I work in this field as a freelancer and I am still learning a lot about this technology and this website I created using this technology</div>
     </div>
   </li>
   
