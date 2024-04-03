@@ -1,9 +1,10 @@
 import 'aos/dist/aos.css';
-import './App.css';
+import './App.module.css';
 import Experince from './Pages/Experince/Experince';
 import Home from './Pages/Home/Home';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Typical from 'react-typical'
+import Projects from './Pages/Projects/Projects';
+import styles from './App.module.css'
 
 function App() {
   return (
@@ -49,11 +50,7 @@ function App() {
         
         <div className="card">
           <div className="title">Projects</div>
-          <Typical
-          steps={['Hello', 1000, 'Hello world!', 500]}
-          loop={Infinity}
-          wrapper="p"
-        />
+           <Projects/>
         </div>
         </div>
 
@@ -72,6 +69,15 @@ function App() {
         <div className="card">
           <div className="title">Skills</div>
           <Experince className="content-card"/>
+        </div>
+        </div>
+
+        <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" >
+        <div className="card">
+          <div className="title">Test</div>
+          <div className={styles.ttest}>
+          khdfslgdfiu
+          </div>
         </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Experince.css'
+import './Experince.module.css'
 
 const Experince = () => {
   return (

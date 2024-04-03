@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "shape-outside: radial-gradient(farthest-side at top left, transparent 99%, #fff 100%)"
+        ]
+      }
+    ]
+  }
+}
