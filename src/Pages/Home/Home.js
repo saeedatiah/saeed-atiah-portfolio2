@@ -1,15 +1,16 @@
 import React from 'react'
 import './Home.module.css'
 import Typical from 'react-typical'
+import styles from './Home.module.css'
 
 
 const Home = () => {
   return (
     <div>
       
-    <div className='info'>
+    <div className={styles.info}>
 
-    <div className='pic'>
+    <div className={styles.pic}>
     pic <br/>
     pic <br/>
     pic <br/>
@@ -17,10 +18,10 @@ const Home = () => {
     pic <br/>
     pic <br/>
     </div>
-    <div className='name'>
+    <div className={styles.name}>
     Saeed Abdullah Baatiah
     </div>
-    <div className='job-title'>
+    <div className={styles.job_title}>
     <Typical
         steps={['Hi', 1000,'I am Developer', 1000,]}
         loop={Infinity}

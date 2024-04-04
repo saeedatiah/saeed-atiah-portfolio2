@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <header>
-        <div className="logo">
+        <div className={styles.logo}>
           <h1>Logologo</h1>           
         </div>
-        <input type="checkbox" id="nav-toggle" className="nav-toggle" ></input>
-        <label for="nav-toggle" className = "nav-toggle-label"> 
-          <span className="label-span"></span> 
+        <input type="checkbox" id="nav_toggle" className={styles.nav_toggle} ></input>
+        <label for="nav_toggle" className ={styles.nav_toggle_label}> 
+          <span className={styles.label_span}></span> 
         </label>
         <nav> 
           <ul>
@@ -30,26 +30,26 @@ function App() {
         <div class="content" >
         <div id='Home' data-aos="fade-in" data-aos-duration="4000" >
           
-          <div className="card">
-          <div className="title">Information</div>
-          <Home className="content-card"/>
+          <div className={styles.card}>
+          <div className={styles.title}>Information</div>
+          <Home className={styles.content_card}/>
 
           </div>
         </div>
 
 
         <div id='Experince'  data-aos="zoom-in-up" data-aos-duration="4000" >
-        <div className="card">
-          <div className="title">Experince</div>
-          <Experince className="content-card"/>
+        <div className={styles.card}>
+          <div className={styles.title}>Experince</div>
+          <Experince className={styles.content_card}/>
         </div>
         </div>
         
         
         <div id='Projects' data-aos="flip-up" data-aos-duration="4000" >
         
-        <div className="card">
-          <div className="title">Projects</div>
+        <div className={styles.card}>
+          <div className={styles.title}>Projects</div>
            <Projects/>
         </div>
         </div>
@@ -59,22 +59,22 @@ function App() {
         
 
         <div id='Qualifications' data-aos="top-top" data-aos-duration="4000" >
-        <div className="card">
-          <div className="title">Qualifications</div>
-          <Experince className="content-card"/>
+        <div className={styles.card}>
+          <div className={styles.title}>Qualifications</div>
+          <Experince className={styles.content_card}/>
         </div>
         </div>
 
         <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" >
-        <div className="card">
-          <div className="title">Skills</div>
-          <Experince className="content-card"/>
+        <div className={styles.card}>
+          <div className={styles.title}>Skills</div>
+          <Experince className={styles.content_card}/>
         </div>
         </div>
 
         <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" >
-        <div className="card">
-          <div className="title">Test</div>
+        <div className={styles.card}>
+          <div className={styles.title}>Test</div>
           <div className={styles.ttest}>
           khdfslgdfiu
           </div>
