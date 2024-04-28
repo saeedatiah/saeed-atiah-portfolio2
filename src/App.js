@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Projects from './Pages/Projects/Projects';
 import styles from './App.module.css'
+import Skills from './Pages/Skills/Skills';
 
 function App() {
   return (
@@ -75,9 +76,7 @@ function App() {
         <div id='Skills' data-aos="ease-out-sine" data-aos-duration="4000" >
         <div className={styles.card}>
           <div className={styles.title}>Test</div>
-          <div className={styles.ttest}>
-          khdfslgdfiu
-          </div>
+          <Skills/>
         </div>
         </div>
 

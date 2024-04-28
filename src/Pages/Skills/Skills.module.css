@@ -1,0 +1,14 @@
+.container_img{
+padding: 2px;
+}
+.container_img > * {
+    margin: 2px;
+}
+
+
+.img {
+    width: 10px;
+    height: 10px;
+    object-position: center;
+    border-radius: 50%;
+  }

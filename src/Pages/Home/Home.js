@@ -30,7 +30,7 @@ const Home = () => {
     </div>
 
     </div>
-    <div>
+    <div className={styles.aa}>
     I am a software developer,
      with extensive experience in programming and providing high-quality software solutions.
       Since I was young, I have been passionate about computers. 
