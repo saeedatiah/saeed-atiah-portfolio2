@@ -2,10 +2,15 @@ import React from 'react'
 import './Home.module.css'
 import Typical from 'react-typical'
 import styles from './Home.module.css'
+import Navbar from '../Navbar/Navbar'
 
 
 const Home = () => {
   return (
+
+    <div>
+    <Navbar/>
+    <div>
     <div>
       
     <div className={styles.info}>
@@ -41,6 +46,11 @@ const Home = () => {
 
     </div>
     </div>
+    </div>
+    </div>
+
+   
+    
   )
 }
 
