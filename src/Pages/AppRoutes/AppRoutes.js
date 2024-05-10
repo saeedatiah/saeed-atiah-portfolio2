@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import Experince from '../Experince/Experince'; 
 import Skills from '../Skills/Skills';
+import Qualification from '../Qualification/Qualification';
 
 
 const AppRoutes = () => {
@@ -14,6 +15,7 @@ const AppRoutes = () => {
       <Route path="/projects" element={<Projects />} />
       <Route path="/experince" element={<Experince />} />
       <Route path="/skills" element={<Skills />} />
+      <Route path="/qualification" element={<Qualification/>} />
     </Routes>
     </div>
     

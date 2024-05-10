@@ -20,6 +20,10 @@
     grid-row: 3/4;
     grid-column: 3/5;
 }
+.con{
+    background-image: url("background.jpg");
+    height: vh;
+}
 @media (max-width: 660px) {
     .pic{
         grid-row: 1/5;

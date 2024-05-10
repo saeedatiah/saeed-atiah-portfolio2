@@ -1,9 +1,31 @@
 .container:hover > :not(:hover){
-  opacity: 0.4;
+  opacity: 0.2;
 }
 .title{
-transition: opacity 0.6s ease;
+transition: opacity 0.4s ease;
 width: 200px; 
 height: 40px;
 background-color: aqua;
+text-decoration: none;
+color: black;
+text-align: center;
+vertical-align: bottom;
+}
+
+.title:hover{
+  text-decoration: none;
+
+}
+.title > *{
+  text-align: center;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.main_container{
+  background-color: aqua;
+  width: 100%;
+
 }

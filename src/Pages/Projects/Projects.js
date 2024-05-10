@@ -1,9 +1,13 @@
 import React from 'react'
 import styles from './Projects.module.css'
+import Navbar from '../Navbar/Navbar'
 
 const Projects = () => {
   return (
-<div>
+
+    <div className='wrapper'>
+<Navbar className='header'/>
+<div className='main'>
 <div className={styles.super_box}>
   <div className={styles.container}>
   
@@ -78,9 +82,7 @@ const Projects = () => {
 
 
 
-
-    
-
+    </div>
 
   )
 }

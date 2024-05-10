@@ -1,9 +1,15 @@
 import React from 'react';
 import styles from './Experince.module.css'
+import Navbar from '../Navbar/Navbar';
 
 const Experince = () => {
   return (
-    <ul className={styles.timeline}>
+
+    <div className="wrapper">
+    <Navbar className="header"/>
+    <div className="main">
+
+<ul className="{styles.timeline}">
 
   <li>
     <div className={styles.direction_r}>
@@ -36,6 +42,10 @@ const Experince = () => {
   </li>
   
 </ul>
+</div>
+    </div>
+
+    
   )
 }
 
