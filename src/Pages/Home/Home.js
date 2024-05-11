@@ -10,7 +10,7 @@ import Background from './background.jpg'
 const Home = () => {
   return (
 
-    <div className="wrapper" style={{backgroundImage: `url(${Background})` }}>
+    <div className="wrapper" style={{backgroundImage: `url(${Background})`, filter:'blur(10px)' }}>
     <Navbar className="header"/>
     <div className="main" >
     <div >
