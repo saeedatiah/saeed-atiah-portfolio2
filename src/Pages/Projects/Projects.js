@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './Projects.module.css'
 import Navbar from '../Navbar/Navbar'
+import Background from './bg_projects.jpg'
 
 const Projects = () => {
   return (
 
     <div className='wrapper'>
+        <img  className='img_bg' src={Background} />
+
 <Navbar className='header'/>
 <div className='main'>
 <div className={styles.super_box}>

@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Experince.module.css'
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar'
+import Background from './bg_experince.jpg'
 
 const Experince = () => {
   return (
 
     <div className="wrapper">
+            <img  className='img_bg' src={Background} />
+
     <Navbar className="header"/>
     <div className="main">
 

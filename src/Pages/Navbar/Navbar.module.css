@@ -5,9 +5,9 @@
 transition: opacity 0.4s ease;
 width: 200px; 
 height: 40px;
-background-color: aqua;
+background-color: #848469;
 text-decoration: none;
-color: black;
+color: #c7ccb1;
 text-align: center;
 vertical-align: bottom;
 }
@@ -25,7 +25,8 @@ vertical-align: bottom;
   justify-content: center;
 }
 .main_container{
-  background-color: aqua;
+  background-color: #575757;
+  color: #dfdfdf;
   width: 100%;
 
 }

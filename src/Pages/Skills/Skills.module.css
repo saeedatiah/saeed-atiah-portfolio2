@@ -18,8 +18,8 @@ padding: 2px;
 
   } */
 
-  img {
-    --color: #FA6900; /* the color of the border */
+  .img {
+    --color: #848469; /* the color of the border */
     --border: 2px;   /* the thickness of the border */
     --offset:10px;   /* control the movement of the border */
     --gap: 5px;  
@@ -45,6 +45,13 @@ padding: 2px;
     background-repeat: no-repeat;
     transition: .4s;
   }
-  img:hover {
-    --_s: 0px
+  .img:hover {
+    --_s: 0px;
+    opacity: 0.4;
   }
+
+
+  
+
+  
+  

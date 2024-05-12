@@ -4,15 +4,16 @@ import Typical from 'react-typical'
 import styles from './Home.module.css'
 import Navbar from '../Navbar/Navbar'
 import "../Shared/CSS/Gloabal_css.css"
-import Background from './background.jpg'
+import Background from './bg_home.jpg'
 
 
 const Home = () => {
   return (
 
-    <div className="wrapper" style={{backgroundImage: `url(${Background})`, filter:'blur(10px)' }}>
+    <div className="wrapper" >
+    <img  className='img_bg' src={Background} />
     <Navbar className="header"/>
-    <div className="main" >
+    <div className={styles.main}>
     <div >
       
     <div className={styles.info}>
