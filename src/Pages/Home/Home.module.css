@@ -27,7 +27,7 @@
     background-image: url("background.jpg");
     height: vh;
 }
-@media (max-width: 660px) {
+@media (max-width: 500px) {
     .pic{
         grid-row: 1/5;
         grid-column: 1/3;

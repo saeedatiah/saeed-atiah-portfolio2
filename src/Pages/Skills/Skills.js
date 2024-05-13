@@ -21,7 +21,7 @@ const Skills = () => {
   return (
 
     <div className='wrapper'>
-        <img  className='img_bg' src={Background} />
+        <img  className='img_bg' src={Background} alt=''/>
 
     <Navbar className='header'/>
     <div className='main'>

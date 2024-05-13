@@ -11,7 +11,7 @@ const Home = () => {
   return (
 
     <div className="wrapper" >
-    <img  className='img_bg' src={Background} />
+    <img  className='img_bg' src={Background} alt="" />
     <Navbar className="header"/>
     <div className={styles.main}>
     <div >
@@ -38,7 +38,7 @@ const Home = () => {
     </div>
 
     </div>
-    <div className={styles.aa}>
+    <div className='content'>
     I am a software developer,
      with extensive experience in programming and providing high-quality software solutions.
       Since I was young, I have been passionate about computers. 
