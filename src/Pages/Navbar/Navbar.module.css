@@ -30,8 +30,8 @@ vertical-align: bottom;
   width: 100%;
 
 }
-@media (max-width: 500px){
+/* @media (max-width: 640px){
   .main_container {
     opacity: 0;
   }
-}
+} */
