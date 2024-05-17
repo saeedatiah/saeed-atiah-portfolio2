@@ -1,38 +1,64 @@
 import React from 'react'
 import styles from  './Navbar.module.css'
 import { Link } from "react-router-dom";
+import home from './img/home.png'
+import projects from './img/projects.png'
+import experince from './img/experince.png'
+import skill from './img/skill.png'
+import quali from './img/quali.png'
+
 
 
 const Navbar = () => {
   return (
-    <nav class="bg-green-800  
-                py-4 text-white fixed  
-                w-full top-0 left-0 items-center " > 
-        <div class="container  "> 
-            <ul class=" bg-gray-700 w-fit"> 
-                <li class="inline-block bg-orange-300 "> 
-                <Link class="hover:text-gray-300 md:collapse " to="/">H</Link>
-                <Link class="hover:text-gray-300 collapse md:visible" to="/">Home</Link>
-                </li> 
-                <li class="inline-block"> 
-                <Link class="hover:text-gray-300 md:collapse" to="/projects">P</Link>
-                <Link class="hover:text-gray-300 collapse md:visible" to="/projects">projects</Link>
-                </li> 
-                <li class="inline-block"> 
-                <Link class="hover:text-gray-300 md:collapse" to="/experince">E</Link>
-                <Link class="hover:text-gray-300 collapse md:visible" to="/experince">experince</Link>
-                </li> 
-                <li class="inline-block"> 
-                <Link class="hover:text-gray-300 md:collapse" to="/skills">S</Link>
-                <Link class="hover:text-gray-300 collapse md:visible" to="/skills">skills</Link>
-                </li>
-                <li class="inline-block"> 
-                <Link class="hover:text-gray-300 md:collapse" to="/qualification">Q</Link>
-                <Link class="hover:text-gray-300 collapse md:visible" to="/qualification">qualification</Link>
-                </li> 
-            </ul> 
-        </div> 
-    </nav> 
+
+    <div class="grid grid-rows-1 grid-cols-5 gap-4 justify-stretch bg-cyan-900">
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/">Home</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center " to="/"><img class='mx-auto my-auto' src={home} alt=''/></Link>
+
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/projects">projects</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/projects"><img class='mx-auto my-auto' src={projects} alt=''/></Link>
+
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/experince">experince</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/experince"><img class='mx-auto my-auto' src={experince} alt=''/></Link>
+
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/skills">skills</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/skills"><img class='mx-auto my-auto' src={skill} alt=''/></Link>
+
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/qualification">qualification</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/qualification"><img class='mx-auto my-auto' src={quali} alt=''/></Link>
+
+
+
+    </div>
+    // <nav class="bg-green-800  
+    //             py-4 text-white fixed  
+    //             w-full top-0 left-0 right-0 items-center " > 
+    //     <div class="container  "> 
+    //         <ul class=" bg-gray-700 w-fit"> 
+    //             <li class="inline-block bg-orange-300 "> 
+    //             <Link class="hover:text-gray-300 md:collapse " to="/">H</Link>
+    //             <Link class="hover:text-gray-300 collapse md:visible" to="/">Home</Link>
+    //             </li> 
+    //             <li class="inline-block"> 
+    //             <Link class="hover:text-gray-300 md:collapse" to="/projects">P</Link>
+    //             <Link class="hover:text-gray-300 collapse md:visible" to="/projects">projects</Link>
+    //             </li> 
+    //             <li class="inline-block"> 
+    //             <Link class="hover:text-gray-300 md:collapse" to="/experince">E</Link>
+    //             <Link class="hover:text-gray-300 collapse md:visible" to="/experince">experince</Link>
+    //             </li> 
+    //             <li class="inline-block"> 
+    //             <Link class="hover:text-gray-300 md:collapse" to="/skills">S</Link>
+    //             <Link class="hover:text-gray-300 collapse md:visible" to="/skills">skills</Link>
+    //             </li>
+    //             <li class="inline-block"> 
+    //             <Link class="hover:text-gray-300 md:collapse" to="/qualification">Q</Link>
+    //             <Link class="hover:text-gray-300 collapse md:visible" to="/qualification">qualification</Link>
+    //             </li> 
+    //         </ul> 
+    //     </div> 
+    // </nav> 
 
 
   //   <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -49,9 +75,6 @@ const Navbar = () => {
   //     </button>
   //     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
   //       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-  //         <li>
-  //           <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-  //         </li>
   //         <li>
   //           <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
   //         </li>

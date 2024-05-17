@@ -6,86 +6,29 @@ import Background from './bg_projects.jpg'
 const Projects = () => {
   return (
 
-    <div className='wrapper'>
-        <img  className='img_bg' src={Background} />
+    <div class="w-screen h-screen" >
 
-<Navbar className='header'/>
-<div className='main'>
-<div className={styles.super_box}>
-  <div className={styles.container}>
-  
-    <div className={styles.box}>
-    
-      <div className={styles.icon_bg}>
+      <Navbar/>
+      <div class="grid grid-cols-2  gap-3 mx-3 my-3 ">
+
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-center  '>
+
+{/* remind soon */}
+        <div class='font-bold group-hover:animate-bounce'>
+        Poject Name
+        
+        </div>
+        <img src={Background} alt='' class='w-24 h-24 rounded-full' />
+        <div class='font-thin text-sm' >project Name</div>
+
       </div>
-    </div>
 
-    <div className={styles.icon}>
 
-      icon
-    </div>
-
-  </div>
-
-  <div className={styles.text}>
-    <p clclassNameass={styles.title}>
-      Security Hardening
-    </p>
-  </div>
-</div>
-
-<div className={styles.super_box}>
-  <div className={styles.container}>
-  
-    <div className={styles.box}>
-    
-      <div className={styles.icon_bg}>
+      
+ 
       </div>
-    </div>
-
-    <div className={styles.icon}>
-
-      icon
-    </div>
-
-  </div>
-
-  <div className={styles.text}>
-    <p clclassNameass={styles.title}>
-      Security Hardening
-    </p>
-  </div>
-</div>
-
-<div className={styles.super_box}>
-  <div className={styles.container}>
-  
-    <div className={styles.box}>
-    
-      <div className={styles.icon_bg}>
+      
       </div>
-    </div>
-
-    <div className={styles.icon}>
-
-      icon
-    </div>
-
-  </div>
-
-  <div className={styles.text}>
-    <p clclassNameass={styles.title}>
-      Security Hardening
-    </p>
-  </div>
-</div>
-
-
-</div>
-
-
-
-    </div>
 
   )
 }

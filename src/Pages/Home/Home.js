@@ -12,11 +12,11 @@ const Home = () => {
     <div class="w-screen h-screen" style={{backgroundImage:'url(./bg_home.jpg)'}}>
 
       <Navbar/>
-      <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 justify-stretch  pt-14 ">
-      <div class="bg-orange-400 m-6 rounded-sm shadow-md">
-aa
+      <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 justify-stretch  pt-6 ">
+      <div class="bg-white m-6 rounded-sm shadow-md items-center justify-center">
+<p>aa</p>
       </div>
-      <div class="bg-amber-400 grid grid-rows-2 m-6 rounded-sm shadow-md">
+      <div class="bg-white grid grid-rows-2 m-6 rounded-sm shadow-md items-center justify-center">
         <div>    Saeed Abdullah Baatiah</div>
         <Typical
         steps={['Hi', 1000,'I am Developer', 1000,]}
@@ -25,7 +25,7 @@ aa
       />
 
       </div>
-      <div class="col-span-1 md:col-span-2 bg-slate-300 overflow-auto m-6 rounded-sm shadow-md">
+      <div class="col-span-1 md:col-span-2 bg-white overflow-auto m-6 rounded-sm shadow-md">
       <p class="break-all ">
       I am a software developer,
      with extensive experience in programming and providing high-quality software solutions.
