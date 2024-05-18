@@ -24,36 +24,66 @@ const Skills = () => {
 
       <Navbar/>
 
-      <div class=' flex flex-wrap mx-3 my-3 gap-2 '>
-      <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={html} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>html</div>
+      <div class=' flex flex-wrap mx-3 my-3 gap-4 '>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={html} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>html</div>
         </div>
 
-        <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={css} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>css</div>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={css} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>css</div>
         </div>
 
-        <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={tailwind} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>tailwind</div>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-24 duration-500 border-2 border-cyan-100' src={tailwind} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>tailwind</div>
         </div>
 
-        <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={bootstrap} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>bootstrap</div>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={bootstrap} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>bootstrap</div>
         </div>
 
-        <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={html} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>html</div>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={js} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>js</div>
         </div>
 
-        <div div class='group w-20 h-28 shadow-md rounded-md'>
-            <img class='rounded-full group-hover:scale-110 transition-all w-18 h-18 duration-500' src={html} alt=''/>
-            <div class='group-hover:animate-pulse text-center'>html</div>
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={github} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>github</div>
         </div>
+
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={trello} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>trello</div>
+        </div>
+
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={slack} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>slack</div>
+        </div>
+
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={excel1} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>excel</div>
+        </div>
+
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={photoshop} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>photoshop</div>
+        </div>
+
+        <div div class='group w-24 h-32 shadow-md rounded-md'>
+            <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={draw} alt=''/>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>draw</div>
+        </div>
+
+        
+        
+
+        
 
 
 

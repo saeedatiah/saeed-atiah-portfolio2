@@ -19,6 +19,9 @@ const Projects = () => {
         
         </div>
         <img src={Background} alt='' class='w-24 h-24 rounded-full' />
+        <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-cyan-800 py-4  px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+    <div class="mt-px"> HTML </div>
+  </div>
         <div class='font-thin text-sm' >project Name</div>
 
       </div>

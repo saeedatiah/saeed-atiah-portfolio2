@@ -12,21 +12,21 @@ import quali from './img/quali.png'
 const Navbar = () => {
   return (
 
-    <div class="grid grid-rows-1 grid-cols-5 gap-4 justify-stretch bg-cyan-900">
-     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/">Home</Link>
-     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center " to="/"><img class='mx-auto my-auto' src={home} alt=''/></Link>
+    <div class="grid grid-rows-1 grid-cols-5 gap-4 justify-stretch bg-cyan-900 h-12 items-center">
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden sm:block   text-center" to="/">Home</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 sm:hidden text-center " to="/"><img class='mx-auto my-auto' src={home} alt=''/></Link>
 
-     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/projects">projects</Link>
-     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/projects"><img class='mx-auto my-auto' src={projects} alt=''/></Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden sm:block text-center" to="/projects">projects</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 sm:hidden text-center" to="/projects"><img class='mx-auto my-auto' src={projects} alt=''/></Link>
 
-     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/experince">experince</Link>
-     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/experince"><img class='mx-auto my-auto' src={experince} alt=''/></Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden sm:block text-center" to="/experince">experince</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 sm:hidden text-center" to="/experince"><img class='mx-auto my-auto' src={experince} alt=''/></Link>
 
-     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/skills">skills</Link>
-     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/skills"><img class='mx-auto my-auto' src={skill} alt=''/></Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden sm:block text-center" to="/skills">skills</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 sm:hidden text-center" to="/skills"><img class='mx-auto my-auto' src={skill} alt=''/></Link>
 
-     <Link class="hover:text-cyan-300 text-cyan-100 hidden md:block text-center" to="/qualification">qualification</Link>
-     <Link class="hover:text-cyan-300 text-cyan-100 md:hidden text-center" to="/qualification"><img class='mx-auto my-auto' src={quali} alt=''/></Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 hidden sm:block text-center" to="/qualification">qualification</Link>
+     <Link class="hover:text-cyan-300 text-cyan-100 sm:hidden text-center" to="/qualification"><img class='mx-auto my-auto' src={quali} alt=''/></Link>
 
 
 
