@@ -23,13 +23,17 @@ const Home = () => {
 
 
       </div>
-      <div class="bg-white grid grid-rows-2 m-6 rounded-sm shadow-md items-center justify-center">
+      <div class="bg-white grid grid-rows-2 m-6 rounded-sm shadow-md items-center justify-center p-3">
         <div>    Saeed Abdullah Baatiah</div>
+
+
         <Typical
         steps={['Hi', 1000,'I am Developer', 1000,]}
         loop={Infinity}
         wrapper="p"
       />
+      <div>    Bachelor's degree in Computer Engineering, Hadramaut University</div>
+
 
       </div>
       <div class="col-span-1 md:col-span-2 bg-white overflow-auto m-6 rounded-sm shadow-md">

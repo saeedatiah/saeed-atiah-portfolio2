@@ -77,7 +77,7 @@ const Skills = () => {
 
         <div div class='group w-24 h-32 shadow-md rounded-md'>
             <img class='rounded-full group-hover:scale-125 transition-all w-18 h-18 duration-500 border-2 border-cyan-100' src={draw} alt=''/>
-            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>draw</div>
+            <div class='group-hover:mt-1 transition-all text-center text-cyan-900'>corel draw</div>
         </div>
 
         

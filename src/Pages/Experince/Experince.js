@@ -47,7 +47,7 @@ const Experince = () => {
               <p class="text-sm text-gray-500">wpf <a href="#" class="font-medium text-gray-900">team leader</a></p>
             </div>
             <div class="whitespace-nowrap text-right text-sm text-gray-500">
-              <time datetime="2020-09-22">2012 - present</time>
+              <time datetime="2020-09-22">2022 - present</time>
             </div>
           </div>
         </div>
