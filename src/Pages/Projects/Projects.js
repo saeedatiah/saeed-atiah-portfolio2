@@ -14,9 +14,9 @@ const Projects = () => {
     <div class="w-screen h-screen" >
 
       <Navbar/>
-      <div class="grid sm:grid-cols-2 grid-cols-1  gap-3 mx-3 my-3 ">
+      <div class="grid sm:grid-cols-2 grid-cols-1  gap-3 mx-3 my-3 text-cyan-100">
 
-      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  '>
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  pb-3'>
 {/* remind soon */}
         <div class='font-bold group-hover:animate-bounce'>
         autlob
@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
 
 
-      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  '>
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start pb-3 '>
 {/* remind soon */}
         <div class='font-bold group-hover:animate-bounce'>
         my portfolio
@@ -44,7 +44,7 @@ const Projects = () => {
       </div>
 
 
-      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  '>
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start pb-3 '>
 {/* remind soon */}
         <div class='font-bold group-hover:animate-bounce'>
         L Casher
@@ -57,7 +57,7 @@ const Projects = () => {
         <div class='font-thin text-sm mx-4' >It is a point-of-sale computer application that contains sales and purchase invoices, and the invoice is printed via a thermal printer</div>
       </div>
 
-      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  '>
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start pb-3 '>
 {/* remind soon */}
         <div class='font-bold group-hover:animate-bounce'>
         Matjari
@@ -72,7 +72,7 @@ const Projects = () => {
 
 
 
-      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start  '>
+      <div class='group w-full flex-col bg-cyan-900 rounded-sm shadow-md flex items-center justify-start pb-3 '>
 {/* remind soon */}
         <div class='font-bold group-hover:animate-bounce'>
         Ready Mix Manag

@@ -15,7 +15,7 @@ const Home = () => {
       <Navbar/>
       <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 justify-stretch  pt-6 ">
       <div class="bg-white m-6 rounded-full shadow-md items-center justify-center w-36 h-36 place-self-center">
-      <img src={img} alt=''/>
+      
 
       
 
@@ -36,7 +36,7 @@ const Home = () => {
 
 
       </div>
-      <div class="col-span-1 md:col-span-2 bg-white overflow-auto m-6 rounded-sm shadow-md">
+      <div class="col-span-1 md:col-span-2 bg-white overflow-auto m-6 rounded-sm shadow-md p-3">
       <p class="break-all ">
       I am a software developer,
      with extensive experience in programming and providing high-quality software solutions.
