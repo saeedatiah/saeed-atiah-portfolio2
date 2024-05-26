@@ -5,7 +5,7 @@ import styles from './Home.module.css'
 import Navbar from '../Navbar/Navbar'
 import "../Shared/CSS/Gloabal_css.css"
 import Background from './bg_home.jpg'
-import img from '../Skills/imgs/html-5.png'
+import user from './user.png'
 
 
 const Home = () => {
@@ -15,12 +15,7 @@ const Home = () => {
       <Navbar/>
       <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 justify-stretch  pt-6 ">
       <div class="bg-white m-6 rounded-full shadow-md items-center justify-center w-36 h-36 place-self-center">
-      
-
-      
-
-    
-
+      <img src={user} alt='' class='items-center justify-center  w-24 h-24 place-self-center self-center text-center'/>
 
       </div>
       <div class="bg-white grid grid-rows-2 m-6 rounded-sm shadow-md items-center justify-center p-3">
